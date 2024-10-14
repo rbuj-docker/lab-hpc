@@ -1,0 +1,10 @@
+services:
+  pandas:
+    build: ./docker/pandas
+
+  rockylinux:
+    build: ./docker/rockylinux
+
+  texlive:
+    image: texlive/texlive:latest
+    working_dir: /home/hpc
